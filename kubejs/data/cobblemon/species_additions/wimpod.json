@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:wimpod",
+  "evolutions": [
+        {
+          "id": "wimpod_golisopodronin",
+          "variant": "level_up",
+          "result": "golisopodronin",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "aquacutter"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 0
+            },
+            {
+              "variant": "damage_taken",
+              "amount": 35
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+}

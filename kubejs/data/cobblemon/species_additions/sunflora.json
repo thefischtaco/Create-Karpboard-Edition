@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:sunflora",
+  "evolutions": [
+    {
+      "id": "sunflora_sunglarer",
+      "variant": "item_interact",
+      "result": "sunglarer",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:decorated_pot"
+    }
+  ]
+}

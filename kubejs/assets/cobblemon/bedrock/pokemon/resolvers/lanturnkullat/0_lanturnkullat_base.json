@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:lanturnkullat",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:lanturnkullat",
+     "model": "cobblemon:lanturnkullat.geo",
+     "texture": "cobblemon:textures/pokemon/lanturnkullat/lanturnkullat.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/lanturnkullat/lanturnkullat_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/lanturnkullat/lanturnkullat_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/lanturnkullat/lanturnkullat_emissive_shiny.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

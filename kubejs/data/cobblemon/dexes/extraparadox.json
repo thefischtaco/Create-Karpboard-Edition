@@ -1,0 +1,25 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:extraparadox",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:toxicmelody",
+    "cobblemon:ironvictory",
+    "cobblemon:ironcore",
+    "cobblemon:crimsonveil",
+    "cobblemon:irondrone",
+    "cobblemon:lumintail",
+    "cobblemon:ironvirus",
+    "cobblemon:feralwish",
+    "cobblemon:wildgene",
+    "cobblemon:ironjustice",
+    "cobblemon:primalshell",
+    "cobblemon:saberjaw",
+    "cobblemon:ancientgale",
+    "cobblemon:tempestfang",
+    "cobblemon:ironbeak",
+    "cobblemon:ironcocoon",
+    "cobblemon:ironbell",
+    "cobblemon:ironsail"
+  ]
+}

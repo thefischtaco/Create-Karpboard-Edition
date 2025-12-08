@@ -1,0 +1,45 @@
+{
+	"portraitScale": 1.28,
+	"portraitTranslation": [-0.09, 2.6, 0],
+	"profileScale": 0.4,
+	"profileTranslation": [-0.01, 1.15, 0],
+	
+	"animations": {
+		"faint": "q.bedrock_primary('golurkgear', 'faint', q.curve('one'))",
+		"cry": "q.bedrock_stateful('golurkgear', 'cry')"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('golurkgear', 'ground_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('golurkgear', 'blink')"]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('golurkgear', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('golurkgear', 'blink')"
+			]
+		},
+		
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ "q.bedrock('golurkgear', 'ground_walk')"],
+			"quirks": ["q.bedrock_quirk('golurkgear', 'blink')"]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('golurkgear', 'sleep')"]
+		}
+	}
+}

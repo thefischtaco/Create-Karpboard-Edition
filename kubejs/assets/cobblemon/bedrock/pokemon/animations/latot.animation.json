@@ -1,0 +1,89 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"test": {
+			"loop": true,
+			"bones": {
+				"latot": {
+					"rotation": [2.5, 0, 0]
+				},
+				"torso": {
+					"rotation": [-48.17931, -23.28419, -19.49896]
+				},
+				"left": {
+					"rotation": [25.68482, 10.17781, -20.17393]
+				},
+				"right": {
+					"rotation": [24.47761, -5.24826, 11.36081]
+				},
+				"neck": {
+					"rotation": [25, 0, 0]
+				},
+				"head": {
+					"rotation": [29.24769, -6.27967, 13.64973]
+				}
+			}
+		},
+		"animation.latot.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["-20-math.sin(query.anim_time*90*1-80)*4", "math.sin(query.anim_time*90*0.5-80)*4", "math.sin(query.anim_time*90*0.5+40)*2"],
+					"position": ["0-math.sin(query.anim_time*90*0.5-0)*1", "0-math.sin(query.anim_time*90*1)*1", "0-math.sin(query.anim_time*90*0.5-80)*0.5"]
+				},
+				"left": {
+					"rotation": [30, 0, 17.5]
+				},
+				"right": {
+					"rotation": [32.5, 0, -10]
+				},
+				"neck": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"head": {
+					"rotation": [20, 0, 0]
+				}
+			}
+		},
+		"animation.latot.cry": {
+			"animation_length": 1.2917,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4167": [-7.5, 0, 0],
+						"1.2917": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4167": [-20, 0, 0],
+						"1.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.latot.ground_walk": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["22.4678+math.sin(query.anim_time*90*1-150)*3", 0, "-math.sin(query.anim_time*90*0.5+60)*2"],
+					"position": ["0-math.sin(query.anim_time*90*0.5-0)*1", "-4-math.sin(query.anim_time*90*1)*3", "0-math.sin(query.anim_time*90*1 -0)*0.2"]
+				},
+				"left": {
+					"rotation": [84.981, 4.98093, -0.43688]
+				},
+				"right": {
+					"rotation": [79.99067, -2.462, 0.43439]
+				},
+				"neck": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"head": {
+					"rotation": ["2.4678+math.sin(query.anim_time*90*1-150)*3", 0, 0]
+				}
+			}
+		}
+	}
+}

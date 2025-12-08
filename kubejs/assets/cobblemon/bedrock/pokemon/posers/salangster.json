@@ -1,0 +1,54 @@
+{
+	"portraitScale": 1.2,
+	"portraitTranslation": [0, 0.4, 0],
+	"profileScale": 0.5,
+	"profileTranslation": [0, 1, 0],
+	
+	"animations": {
+		"faint": "q.bedrock_primary('salangster', 'faint', q.curve('one'))",
+		"physical": "q.bedrock_primary('salangster', 'attack', q.curve('symmetrical_wide'))",
+		"special": "q.bedrock_primary('salangster', 'attack', q.curve('symmetrical_wide'))",
+		"status": "q.bedrock_primary('salangster', 'attack', 'look', q.curve('symmetrical_wide'))",
+		"cry": "q.bedrock_stateful('salangster', 'cry')"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('salangster', 'battle_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('salangster', 'blink')"
+			]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('salangster', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('salangster', 'blink')"
+			]
+		},
+		
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ 
+				"q.bedrock('salangster', 'ground_walk')" 
+			],
+			"quirks": [
+				"q.bedrock_quirk('salangster', 'blink')"
+			]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('salangster', 'sleep')"]
+		}
+	}
+}

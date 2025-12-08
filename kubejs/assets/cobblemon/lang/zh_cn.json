@@ -1,0 +1,22 @@
+{
+"cobblemon.ability.teamcombo": "团队连攻",
+"cobblemon.ability.teamcombo.desc": "在一回合内使用同一攻击招式三次，后两次威力为第一次威力的15%，并且后两次无附加效果。",
+"cobblemon.ability.thornydefense": "荆棘防守",
+"cobblemon.ability.thornydefense.desc": "免疫球类招式，并且当受到接触类招式攻击时，对手会损失最大体力的1/8。",
+"cobblemon.ability.warriorglory": "斗者辉煌",
+"cobblemon.ability.warriorglory.desc": "击败敌方宝可梦提升一级速度，同时受到攻击时，防御会提升一个等级。",
+"cobblemon.ability.reverser": "逆转者",
+"cobblemon.ability.reverser.desc": "能力变换变为原本的反向变动并且翻倍。",
+"cobblemon.ability.eternalrage": "永恒之怒",
+"cobblemon.ability.eternalrage.desc": "上场时，自身每回合恢复1/12的血量，对方场上Mega精灵每回合损失1/10的血量。",
+"cobblemon.ability.jinglebells": "响铃叮当",
+"cobblemon.ability.jinglebells.desc": "若重复使用声音类招式，每重复使用一次，威力提升原始威力的20%，使用六次声音类招式后，威力将提升到原始威力的200%。",
+"cobblemon.ability.moonshot": "圆月重域",
+"cobblemon.ability.moonshot.desc": "上场时，使全场除自己以外的宝可梦进入重力状态，持续5回合。",
+"cobblemon.ability.sweetslime": "甜蚀腐液",
+"cobblemon.ability.sweetslime.desc": "使用的招式可以令毒属性和钢属性的宝可梦中毒，并且可以使用毒属性招式攻击钢属性的宝可梦。",
+"cobblemon.ability.ionbattery": "离子电池",
+"cobblemon.ability.ionbattery.desc": "从地面浮起，从而不会受到地面属性招式的攻击，并且特殊攻击的威力会变为1.5倍。",
+"cobblemon.move.nihillight": "虚无之光",
+"cobblemon.move.nihillight.desc": "使用者释放出违背自然法则的强光进行攻击，甚至能击中妖精属性宝可梦，并忽略目标的所有能力变化。"
+}

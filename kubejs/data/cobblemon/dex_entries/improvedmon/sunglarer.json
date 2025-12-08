@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:sunglarer",
+  "speciesId": "cobblemon:sunglarer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

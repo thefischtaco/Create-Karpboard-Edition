@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:highyena",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:highyena",
+      "model": "cobblemon:highyena.geo",
+      "texture": "cobblemon:textures/pokemon/highyena/highyena.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/highyena/highyena_shiny.png"
+    }
+  ]
+}

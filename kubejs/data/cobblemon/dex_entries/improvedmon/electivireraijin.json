@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:electivireraijin",
+  "speciesId": "cobblemon:electivireraijin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

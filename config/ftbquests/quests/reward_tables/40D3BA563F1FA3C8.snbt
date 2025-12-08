@@ -1,0 +1,49 @@
+{
+	id: "40D3BA563F1FA3C8"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			id: "2B4F04AD5D626395"
+			ignore: false
+			key: "Civilization Quests (Daily) 1"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+		{
+			id: "1243CF4EEEBE73D0"
+			ignore: false
+			key: "Civilization Quests (Daily) 2"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+		{
+			id: "5B9255AA20F05321"
+			ignore: false
+			key: "Civilization Quests (Daily) 3"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+		{
+			id: "6A037B4A9A9C5062"
+			ignore: false
+			key: "Civilization Quests (Daily) 4"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+		{
+			id: "4A10E201628C4A26"
+			ignore: false
+			key: "Civilization Quests (Daily) 5"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+		{
+			id: "4B713E705F057F71"
+			ignore: false
+			key: "Civilization Quests (Daily) 6"
+			type: "extraquests:key_value"
+			value: 100L
+		}
+	]
+}

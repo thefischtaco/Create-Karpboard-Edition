@@ -1,0 +1,16 @@
+{
+    "species": "cobblemon:tetoeon",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tetoeon",
+        "model": "cobblemon:tetoeon.geo",
+        "texture": "cobblemon:textures/pokemon/tetoeon/tetoeon.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/tetoeon/tetoeon_shiny.png"}
+    ]
+  }

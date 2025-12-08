@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:highyena",
+  "speciesId": "cobblemon:highyena",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

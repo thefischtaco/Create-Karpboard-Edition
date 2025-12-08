@@ -1,0 +1,36 @@
+{
+  "head": "head",
+  "portraitScale": 2.1,
+  "portraitTranslation": [ -0.7, 0.3, 0 ],
+  "profileScale": 0.7,
+  "profileTranslation": [ 0, 0.7, 0 ],
+    
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "look",
+        "bedrock(raygul, ground_idle)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(raygul, ground_walk)" ]
+    },
+    "sleep": {
+     "poseTypes": ["SLEEP"],
+     "condition": "!q.is_standing_on_blocks(2, 'minecraft:sand', 'minecraft:red_sand')",
+     "namedAnimations": {},
+     "animations": ["q.bedrock('raygul', 'sleep')"]
+   }
+  }
+}

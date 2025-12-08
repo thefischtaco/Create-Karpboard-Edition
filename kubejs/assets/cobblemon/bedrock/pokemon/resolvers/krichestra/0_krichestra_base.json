@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:krichestra",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:krichestra",
+     "model": "cobblemon:krichestra.geo",
+     "texture": "cobblemon:textures/pokemon/krichestra/krichestra.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/krichestra/krichestra_shiny.png"
+   }
+ ]
+}

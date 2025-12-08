@@ -1,0 +1,51 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [-0.9, 1.5, 0],
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.0, 0],
+  "animations": {
+	"faint": "q.bedrock_primary('golisopodronin', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('golisopodronin', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+				"q.look('head')",
+        "q.bedrock('golisopodronin', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+				"q.look('head')",
+        "q.bedrock('golisopodronin', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('golisopodronin', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+				"q.look('head')",
+        "q.bedrock('golisopodronin', 'water_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('golisopodronin', 'water_swim')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('golisopodronin', 'sleep')"]
+    }
+  }
+}

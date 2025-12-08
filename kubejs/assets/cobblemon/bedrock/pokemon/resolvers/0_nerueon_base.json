@@ -1,0 +1,16 @@
+{
+    "species": "cobblemon:nerueon",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:nerueon",
+        "model": "cobblemon:nerueon.geo",
+        "texture": "cobblemon:textures/pokemon/nerueon/nerueon.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/nerueon/nerueon_shiny.png"}
+    ]
+  }

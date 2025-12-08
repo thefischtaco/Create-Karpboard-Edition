@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:sneaselhc",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:sneaselhc",
+     "model": "cobblemon:sneaselhc.geo",
+     "texture": "cobblemon:textures/pokemon/sneaselhc/sneaselhc.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/sneaselhc/sneaselhc_shiny.png"
+   }
+ ]
+}

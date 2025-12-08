@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:salandit",
+  "evolutions": [
+  {
+    "id": "salandit_salangster",
+    "variant": "level_up",
+    "result": "salangster",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:kings_rock"
+      },
+      {
+        "variant": "time_range",
+        "range": "night"
+      },
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+    ],
+    "permanent": true
+  }
+]
+}

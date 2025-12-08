@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pokefactory"
+	group: "5CE65AE115E26D6E"
+	icon: {
+		id: "cobblemon:sport_ball"
+	}
+	id: "379E1CD18C4C6557"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39F5318BA61F543C"]
+			id: "2A8376E1838136CA"
+			tasks: [{
+				id: "6BFE1AD83D1751F8"
+				item: { count: 1, id: "cobblemon:white_apricorn" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "39F5318BA61F543C"
+			tasks: [{
+				id: "0637E057A2CD09FA"
+				item: { count: 1, id: "cobblemon:white_apricorn_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "0CC433A78BCEB53F"
+			tasks: [{
+				id: "14170C03EFBC0A81"
+				item: { count: 1, id: "cobblemon:pink_apricorn_seed" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "2BDD3B4017CEEBD4"
+			tasks: [{
+				id: "7EC0BBB48769B52C"
+				item: { count: 1, id: "cobblemon:black_apricorn_seed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BDD3B4017CEEBD4"]
+			id: "2DCA7FF990E7B33B"
+			tasks: [{
+				id: "60B9CDA6574DADED"
+				item: { count: 1, id: "cobblemon:black_apricorn" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CC433A78BCEB53F"]
+			id: "4C92E5D02EB2D462"
+			tasks: [{
+				id: "000CFED5DD1A8A58"
+				item: { count: 1, id: "cobblemon:pink_apricorn" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10F4D75C01596BD2"]
+			id: "3F4790687247E3F1"
+			tasks: [{
+				id: "5A00AC529B2C14D0"
+				item: { count: 1, id: "cobblemon:blue_apricorn" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "10F4D75C01596BD2"
+			tasks: [{
+				id: "462B0893EDAA5E0C"
+				item: { count: 1, id: "cobblemon:blue_apricorn_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5E691BAAE88EC832"
+			tasks: [{
+				id: "06E3902374DD81A0"
+				item: { count: 1, id: "cobblemon:apricorn_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "36A29C75E61F4D25"
+			tasks: [{
+				id: "79AE2A86C03B20B4"
+				item: { count: 1, id: "cobblemon:green_apricorn_seed" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "3D0E33D026101B27"
+			tasks: [{
+				id: "234858EA6892A05E"
+				item: { count: 1, id: "cobblemon:yellow_apricorn_seed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E691BAAE88EC832"]
+			id: "623F2C2FB00C3A37"
+			tasks: [{
+				id: "66276CEBAB358024"
+				item: { count: 1, id: "cobblemon:red_apricorn_seed" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["623F2C2FB00C3A37"]
+			id: "6AD721347A76F3FA"
+			tasks: [{
+				id: "4B48EBCB0874223B"
+				item: { count: 1, id: "cobblemon:red_apricorn" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D0E33D026101B27"]
+			id: "5354DFF66976B997"
+			tasks: [{
+				id: "643F913A43C5869C"
+				item: { count: 1, id: "cobblemon:yellow_apricorn" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A29C75E61F4D25"]
+			id: "68AE481E41AEFC00"
+			tasks: [{
+				id: "2864D37DE07E486C"
+				item: { count: 1, id: "cobblemon:green_apricorn" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD721347A76F3FA"]
+			id: "7BFD959C45AED66B"
+			tasks: [{
+				id: "5E71D201EBBF22BC"
+				item: { count: 1, id: "cobblemoncreatified:red_apricorn_powder" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BFD959C45AED66B"]
+			id: "27EFB2089DB91456"
+			tasks: [{
+				id: "523FE4B9AD3B9511"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "1D12CE362F086078"
+			tasks: [{
+				id: "549BB1EF937CFB2B"
+				item: { count: 1, id: "cobblemon:citrine_ball" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "736CD839CA3EEA65"
+			tasks: [{
+				id: "44ED35458B011A05"
+				item: { count: 1, id: "cobblemon:verdant_ball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "229BEBE301EEBD2C"
+			tasks: [{
+				id: "355BC3D7D5101402"
+				item: { count: 1, id: "cobblemon:azure_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6F285EFB883BCF7A"
+			tasks: [{
+				id: "3D20AF9CE4238277"
+				item: { count: 1, id: "cobblemon:roseate_ball" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "7A797916B7D85A0A"
+			tasks: [{
+				id: "7FFA768AFB0F4DFB"
+				item: { count: 1, id: "cobblemon:slate_ball" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "53F7638C18CBA15B"
+			tasks: [{
+				id: "026128F8C017EB8D"
+				item: { count: 1, id: "cobblemon:premier_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "2EF26A3EB290D95C"
+			tasks: [{
+				id: "7132A649C6503F7B"
+				item: { count: 1, id: "cobblemoncreatified:white_apricorn_powder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5354DFF66976B997"]
+			id: "033141AA9A597405"
+			tasks: [{
+				id: "74A78C1A4050A6C3"
+				item: { count: 1, id: "cobblemoncreatified:yellow_apricorn_powder" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "7343849353ACF7FE"
+			tasks: [{
+				id: "50F0ED60CA152184"
+				item: { count: 1, id: "cobblemoncreatified:green_apricorn_powder" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "00DF601D06B4A424"
+			tasks: [{
+				id: "2DBBB646C941F5A5"
+				item: { count: 1, id: "cobblemoncreatified:blue_apricorn_flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4E9FBF854F1F4311"
+			tasks: [{
+				id: "36860C54A292085C"
+				item: { count: 1, id: "cobblemoncreatified:pink_apricorn_powder" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "726A0D2C36C5B99C"
+			tasks: [{
+				id: "473807207D5AD56D"
+				item: { count: 1, id: "cobblemoncreatified:black_apricorn_powder" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

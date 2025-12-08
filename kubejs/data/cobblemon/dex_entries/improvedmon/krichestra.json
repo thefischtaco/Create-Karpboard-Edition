@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:krichestra",
+  "speciesId": "cobblemon:krichestra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

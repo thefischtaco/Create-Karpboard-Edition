@@ -1,0 +1,48 @@
+{
+	"portraitScale": 1,
+	"portraitTranslation": [-0.55, 0.95, 0],
+	"profileScale": 0.55,
+	"profileTranslation": [0, 0.8, 0],
+	
+	"animations": {
+		"cry": "q.bedrock_stateful('greatestbull', 'cry')",
+		"faint": "q.bedrock_primary('greatestbull', 'faint', q.curve('one'))",
+		"physical": "q.bedrock_primary('greatestbull', 'physical_attack', q.curve('symmetrical_wide'))",
+		"special": "q.bedrock_primary('greatestbull', 'physical_attack', q.curve('symmetrical_wide'))",
+		"status": "q.bedrock_primary('greatestbull', 'status_move', 'look', q.curve('symmetrical_wide'))"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('greatestbull', 'ground_idle')"
+			]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('greatestbull', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('greatestbull', 'blink')"
+			]
+		},
+		
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ 
+				"q.bedrock('greatestbull', 'ground_walk')" 
+			]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('greatestbull', 'sleep')"]
+		}
+	}
+}

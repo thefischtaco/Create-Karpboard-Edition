@@ -1,0 +1,23 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:improvedmon",
+  "sortOrder": 1210,
+  "entries": [
+    "cobblemon:lanturnkullat",
+    "cobblemon:greatestbull",
+    "cobblemon:sneaselhc",
+    "cobblemon:sunglarer",
+    "cobblemon:highyena",
+    "cobblemon:dusknoirtesla",
+    "cobblemon:electivireraijin",
+    "cobblemon:magmortarfurnance",
+    "cobblemon:golurkgear",
+    "cobblemon:scolipedewarmount",
+    "cobblemon:salangster",
+    "cobblemon:golisopodronin",
+    "cobblemon:ariaskull",
+    "cobblemon:ledibolt",
+    "cobblemon:lediboltdef",
+    "cobblemon:krichestra"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "target": "cobblemon:golett",
+  "evolutions": [
+    {
+      "id": "golett_golurkgear",
+      "variant": "level_up",
+      "result": "golurkgear",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        },
+        {
+          "variant": "party_member",
+          "target": "klink",
+          "contains": true
+        }
+      ] 
+    },
+	{
+      "id": "golett_golurkgear",
+      "variant": "level_up",
+      "result": "golurkgear",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        },
+        {
+          "variant": "party_member",
+          "target": "klang",
+          "contains": true
+        }
+      ]
+    },
+	{
+      "id": "golett_golurkgear",
+      "variant": "level_up",
+      "result": "golurkgear",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        },
+        {
+          "variant": "party_member",
+          "target": "klinklang",
+          "contains": true
+        }
+      ]
+    }
+  ]
+}

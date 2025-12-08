@@ -1,0 +1,10 @@
+{
+  "maxTiers": 10,
+  "totalPokemon": 1062,
+  "enablePermissionNodes": true,
+  "savePlayerData": true,
+  "dataVersion": "1.0",
+  "enableItemRewards": true,
+  "enablePokemonRewards": true,
+  "enableCommandRewards": false
+}

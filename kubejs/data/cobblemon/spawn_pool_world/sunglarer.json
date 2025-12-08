@@ -1,0 +1,139 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sunglarer-1",
+            "pokemon": "sunglarer",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-49",
+            "weight": 0.19,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_savanna"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+		},
+		{
+			"id": "sunglarer-2",
+			"pokemon": "sunglarer",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "common",
+			"level": "13-43",
+			"weight": 0.5,
+			"weightMultiplier": {
+				"multiplier": 0.25,
+				"condition": {
+					"timeRange": "night"
+				}
+			},
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:sunflower_plains"
+				],
+				"neededNearbyBlocks": [
+					"minecraft:sunflower"
+				]
+			}
+		},
+		{
+			"id": "sunglarer-3",
+			"pokemon": "sunglarer",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "common",
+			"level": "13-43",
+			"weight": 0.5,
+			"weightMultiplier": {
+				"multiplier": 0.25,
+				"condition": {
+					"timeRange": "night"
+				}
+			},
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_overworld"
+				],
+				"neededNearbyBlocks": [
+					"minecraft:sunflower"
+				]
+			},
+			"anticondition": {
+				"biomes": [
+					"minecraft:sunflower_plains"
+				]
+			}
+		},
+		{
+			"id": "sunglarer-4",
+			"pokemon": "sunglarer",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "common",
+			"level": "13-43",
+			"weight": 0.3,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"aether:skyroot_grove",
+					"aether:skyroot_meadow"
+				]
+			}
+		},
+		{
+			"id": "sunglarer-5",
+			"pokemon": "sunglarer",
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "common",
+			"level": "13-43",
+			"weight": 0.5,
+			"condition": {
+				"biomes": [
+					"the_bumblezone:floral_meadow"
+				]
+			},
+			"anticondition": {
+				"structures": [
+					"#the_bumblezone:sempiternal_sanctums"
+				]
+			}
+		}
+    ]
+}

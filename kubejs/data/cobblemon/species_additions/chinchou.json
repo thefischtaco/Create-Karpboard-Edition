@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:chinchou",
+  "evolutions": [
+    {
+      "id": "chinchou_lanturnkullat",
+      "variant": "level_up",
+      "result": "lanturnkullat",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "moon_phase",
+          "moonPhase": "NEW_MOON"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+      "battleOnly": false
+}

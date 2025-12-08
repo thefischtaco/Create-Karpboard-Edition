@@ -1,0 +1,16 @@
+{
+  "id": "cobblemon:floette-eternalflower",
+  "entryId": "cobblemon:floette",
+  "speciesId": "cobblemon:floette",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "EternalFlower",
+      "unlockForms": [
+        "EternalFlower"
+      ]
+    }
+  ],
+  "variations": []
+}

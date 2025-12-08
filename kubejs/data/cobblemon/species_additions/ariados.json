@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:ariados",
+  "evolutions": [
+    {
+      "id": "ariados_ariaskull",
+      "variant": "trade",
+      "result": "ariaskull",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:malicious_armor"
+        }
+      ]
+    }
+  ]
+}

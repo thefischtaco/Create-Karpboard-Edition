@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:greatestbull",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:greatestbull",
+     "model": "cobblemon:greatestbull.geo",
+     "texture": "cobblemon:textures/pokemon/1214_greatestbull/greatestbull.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/1214_greatestbull/greatestbull_shiny.png"
+   }
+ ]
+}

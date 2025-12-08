@@ -1,0 +1,27 @@
+{
+ "species": "cobblemon:scolipedewarmount",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:scolipedewarmount",
+     "model": "cobblemon:scolipedewarmount.geo",
+     "texture": "cobblemon:textures/pokemon/scolipedewarmount/scolipedewarmount.png"
+    
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/scolipedewarmount/scolipedewarmount_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/scolipedewarmount/scolipedewarmount_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nerueon",
+  "speciesId": "cobblemon:nerueon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
