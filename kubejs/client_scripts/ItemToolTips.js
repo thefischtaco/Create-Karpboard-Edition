@@ -1,5 +1,4 @@
 ItemEvents.modifyTooltips(event => {
-	event.add('justdirethings:generatort1', {shift: false}, Text.yellow('Intentionally Disabled'));
     event.add('easy_mob_farm:enduring_capture_net', {shift: false}, Text.yellow('Intentionally Disabled'));
     event.add('easy_mob_farm:ironbound_containment_cage', {shift: false}, Text.yellow('Intentionally Disabled'));
     event.add('easy_mob_farm:void_binding_chain', {shift: false}, Text.yellow('Intentionally Disabled'));
