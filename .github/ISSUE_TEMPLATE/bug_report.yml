@@ -1,0 +1,58 @@
+name: Bug Report
+description: File a bug report to help us improve upon the pack.
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to fill out this bug report!"
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: "Please enter your discord username in case we need to contact you for more info. (not a requirement just helpful)"
+      placeholder: "Enter your discord username here."
+  - type: textarea
+    id: version
+    attributes:
+      label: Version
+      description: What version of the pack are you running?
+      placeholder: "Are you running the most current version and have you added any mods? if so please list them."
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Please describe what is happening.
+      description: "Also tell us, what did you expect to happen?"
+      placeholder: "Tell us what you have found."
+    validations:
+      required: true
+  - type: dropdown
+    id: launchers
+    attributes:
+      label: What Launcher are you using?
+      multiple: true
+      options:
+        - FTB App
+        - Prism
+        - MultiMC
+        - AT Launcher
+        - Modrinth App
+        - GD Launcher
+        - Curseforge App
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: "Please copy and paste any relevant log sections or upload the files."
+      placeholder: "Recent error log output(s), files or pastebin URL(s)"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: I Have provided all the neccessary information i have at my disposal.
+      options:
+        - label: Yes i have.
+          required: true

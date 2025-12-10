@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest or Request additional features for the pack.
+labels:
+  - enhancement
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: "Please enter your discord username in case we need to contact you for more info."
+      placeholder: "Enter your discord username here. (not a requirement just helpful)"
+  - type: textarea
+    id: request
+    attributes:
+      label: Feature Request
+      description: "Please provide us with a detailed description of your idea or a Modrinth/Curseforge url in the case of mods."
+      placeholder: "Enter a description of your idea or provide a Curseforge/Modrinth link, Curseforge is always prefered when possible."
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reasoning
+      description: "Please provide us with some extra information as to why you think this request is a good addition to the pack."
+      placeholder: "I think it would be a nice addition to..."
+    validations:
+      required: true
+  - type: textarea
+    id: additionalinfo
+    attributes:
+      label: Additional Information
+      description: "Feel free to provide any extra information you feel might apply here."
+      placeholder: "Additional Information..."
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: I Have provided all the neccessary information i have at my disposal.
+      options:
+        - label: Yes i have.
+          required: true
+
