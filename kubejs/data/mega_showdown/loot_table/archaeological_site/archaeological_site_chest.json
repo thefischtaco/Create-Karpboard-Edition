@@ -74,7 +74,23 @@
           "weight": 1
         }
       ]
-    }
+    },
+     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "cobblemon:tumblestones",
+          "expand": true,
+          "weight": 2,
+          "conditions": []
+        }
+        ]
+      }
   ],
   "random_sequence": ""
 }
