@@ -4,7 +4,7 @@ PlayerEvents.loggedIn(event => {
   if (!event.player.stages.has('starting_items')) {
       event.player.stages.add('starting_items');
       event.player.give('ftbquests:book');
-      event.player.give('4x minecraft:bread');
+      event.player.give('16x farmersdelight:steak_and_potatoes');
       event.player.give('kubejs:dexrewards');
 
       // Announce to the server with colored text
