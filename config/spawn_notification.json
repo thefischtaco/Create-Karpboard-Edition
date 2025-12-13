@@ -1,7 +1,0 @@
-{
-  "broadcastRange": -1,
-  "playerLimit": -1,
-  "broadcastAcrossDimensions": false,
-  "coordinatePartKey": "spawn_notification.parts.coords",
-  "debug": false
-}
