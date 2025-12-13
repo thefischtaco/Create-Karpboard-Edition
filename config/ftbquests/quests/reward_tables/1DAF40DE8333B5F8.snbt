@@ -2,48 +2,5 @@
 	id: "1DAF40DE8333B5F8"
 	loot_size: 1
 	order_index: 7
-	rewards: [
-		{
-			id: "6903099CF9DD61A7"
-			ignore: false
-			key: "Technology Quests (Daily) 1"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-		{
-			id: "30A6F2B1DA7F8426"
-			ignore: false
-			key: "Technology Quests (Daily) 2"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-		{
-			id: "0C5267FF7DD6D5C1"
-			ignore: false
-			key: "Technology Quests (Daily) 3"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-		{
-			id: "7E2467B8AD217605"
-			ignore: false
-			key: "Technology Quests (Daily) 4"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-		{
-			id: "78F90D5EE7E1CF56"
-			ignore: false
-			key: "Technology Quests (Daily) 5"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-		{
-			id: "2EC4C3AA84213A7A"
-			ignore: false
-			key: "Technology Quests (Daily) 6"
-			type: "extraquests:key_value"
-			value: 100L
-		}
-	]
+	rewards: [ ]
 }
