@@ -1,0 +1,52 @@
+{
+    "head": "head",
+    "portraitScale": 1.9,
+    "portraitTranslation": [ -0.3, 0.3, 0 ],
+    "profileScale": 0.9,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "animations": {
+        "cry": "q.bedrock_stateful('tetoeon', 'cry')"
+  },
+    "poses": {
+      "battling": {
+        "poseName": "battling",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+            "bedrock(tetoeon, battle_idle)"
+        ],
+        "quirks": ["q.bedrock_quirk('tetoeon', 'blink')"]
+      },
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "isBattle": false,
+        "animations": [
+          "look",
+          "bedrock(tetoeon, ground_idle)"
+        ],
+        "quirks": ["q.bedrock_quirk('tetoeon', 'blink')"]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(tetoeon, ground_walk)"],
+        "quirks": ["q.bedrock_quirk('tetoeon', 'blink')"]
+      },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('tetoeon', 'sleep')"]
+      }
+    }
+  }
+  

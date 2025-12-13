@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:lanturnkullat",
+  "speciesId": "cobblemon:lanturnkullat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

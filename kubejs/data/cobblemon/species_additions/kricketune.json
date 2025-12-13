@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:kricketune",
+  "evolutions": [
+    {
+      "id": "kricketune_krichestra",
+      "variant": "trade",
+      "result": "krichestra",
+      "consumeHeldItem": true,
+      "learnableMoves": ["instruct"],
+      "requirements": [ 
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metronome"
+        }
+      ]
+    }
+  ]
+}

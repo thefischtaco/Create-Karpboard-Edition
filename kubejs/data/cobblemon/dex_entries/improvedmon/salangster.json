@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:salangster",
+  "speciesId": "cobblemon:salangster",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

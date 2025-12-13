@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:electabuzz",
+  "evolutions": [
+    {
+      "id": "electabuzz_electivireraijin",
+      "variant": "trade",
+      "result": "electivireraijin",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:black_belt"
+        }
+      ]
+    }
+  ]
+}

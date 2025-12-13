@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "floette-eternalflower-1",
+            "pokemon": "floette eternalflower",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-60",
+            "weight": 0.95,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:wither_rose"
+               ]
+           }
+       }
+   ]
+}

@@ -1,0 +1,48 @@
+{
+	"portraitScale": 1.6,
+	"portraitTranslation": [-0.65, 0.1, 0],
+	"profileScale": 0.55,
+	"profileTranslation": [0, 0.8, 0],
+	
+	"animations": {
+		"cry": "q.bedrock_stateful('highyena', 'cry')",
+		"faint": "q.bedrock_primary('highyena', 'faint', q.curve('one'))",
+		"physical": "q.bedrock_primary('highyena', 'physical', q.curve('symmetrical_wide'))",
+		"special": "q.bedrock_primary('highyena', 'physical', q.curve('symmetrical_wide'))",
+		"status": "q.bedrock_primary('highyena', 'cry', 'look', q.curve('symmetrical_wide'))"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.look('neck')",
+				"q.bedrock('highyena', 'battle_idle')"
+			]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.look('neck')",
+				"q.bedrock('highyena', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('highyena', 'blink')"
+			]
+		},
+		
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ 
+				"q.bedrock('highyena', 'ground_walk')" 
+			]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('highyena', 'sleep')"]
+		}
+	}
+}

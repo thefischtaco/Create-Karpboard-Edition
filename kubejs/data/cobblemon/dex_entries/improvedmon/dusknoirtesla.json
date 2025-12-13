@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:dusknoirtesla",
+  "speciesId": "cobblemon:dusknoirtesla",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

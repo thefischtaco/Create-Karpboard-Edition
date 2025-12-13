@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:whirlipede",
+  "evolutions": [
+    {
+      "id": "whirlipede_scolipedewarmount",
+      "variant": "level_up",
+      "result": "scolipedewarmount",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        },
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true
+    }
+  ]
+}

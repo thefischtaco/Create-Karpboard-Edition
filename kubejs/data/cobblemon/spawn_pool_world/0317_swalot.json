@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swalot-6",
+            "pokemon": "swalot",
+            "presets": [ "natural" ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-36",
+            "weight": 7.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                    
+
+                ]
+            }
+        },
+        {
+            "id": "swalot-7",
+            "pokemon": "swalot",
+            "presets": [ "natural" ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "27-32",
+            "weight": 7.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                    
+
+                ]
+            }
+        }
+    ]
+ 
+}

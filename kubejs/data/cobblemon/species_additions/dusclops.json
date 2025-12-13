@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:dusclops",
+  "evolutions": [
+    {
+      "id": "dusclops_dusknoirtesla",
+      "variant": "trade",
+      "result": "dusknoirtesla",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:electirizer"
+        }
+      ]
+    }
+  ]
+}

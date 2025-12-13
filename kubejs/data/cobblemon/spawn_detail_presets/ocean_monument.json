@@ -1,0 +1,9 @@
+{
+  "condition": {
+	"structures": [
+	  "minecraft:ocean_monument",
+	  "betteroceanmonuments:ocean_monument"
+    ],
+	"maxY": 62
+  }
+}

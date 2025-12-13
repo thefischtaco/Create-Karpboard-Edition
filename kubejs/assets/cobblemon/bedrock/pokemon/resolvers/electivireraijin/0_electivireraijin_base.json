@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:electivireraijin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:electivireraijin",
+      "model": "cobblemon:electivireraijin.geo",
+      "texture": "cobblemon:textures/pokemon/electivireraijin/electivireraijin.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/electivireraijin/electivireraijin_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/electivireraijin/electivireraijin_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/electivireraijin/electivireraijin_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

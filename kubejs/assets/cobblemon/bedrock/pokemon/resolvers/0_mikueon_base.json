@@ -1,0 +1,16 @@
+{
+    "species": "cobblemon:mikueon",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:mikueon",
+        "model": "cobblemon:mikueon.geo",
+        "texture": "cobblemon:textures/pokemon/mikueon/mikueon.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/mikueon/mikueon_shiny.png"}
+    ]
+  }

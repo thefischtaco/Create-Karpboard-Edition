@@ -1,0 +1,10 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:bakalutions",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:mikueon",
+    "cobblemon:tetoeon",
+    "cobblemon:nerueon"
+  ]
+}

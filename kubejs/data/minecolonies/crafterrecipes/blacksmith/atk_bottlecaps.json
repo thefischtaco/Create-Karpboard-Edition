@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    {
+      "count": 4,
+      "id": "tfmg:aluminum_sheet"
+    },
+     {
+      "count": 2,
+      "id": "createcasing:chorium_ingot"
+    },
+    {
+      "count": 2,
+      "id": "cobblemon:red_mint_leaf"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "cobblemoncreatified:atk_silver_bottlecap"
+  },
+  "show-tooltip": true
+}

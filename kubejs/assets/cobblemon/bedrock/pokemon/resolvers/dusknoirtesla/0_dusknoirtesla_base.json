@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:dusknoirtesla",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dusknoirtesla",
+      "model": "cobblemon:dusknoirtesla.geo",
+      "texture": "cobblemon:textures/pokemon/dusknoirtesla/dusknoirtesla.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/dusknoirtesla/dusknoirtesla_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/dusknoirtesla/dusknoirtesla_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/dusknoirtesla/dusknoirtesla_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

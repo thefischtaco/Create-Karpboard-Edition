@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:magmar",
+  "evolutions": [
+    {
+      "id": "magmar_magmortarfurnance",
+      "variant": "trade",
+      "result": "magmortarfurnance",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ]
+    }
+  ]
+}

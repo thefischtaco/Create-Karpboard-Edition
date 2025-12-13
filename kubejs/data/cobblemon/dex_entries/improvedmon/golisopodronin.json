@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:golisopodronin",
+  "speciesId": "cobblemon:golisopodronin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

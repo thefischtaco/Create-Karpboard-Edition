@@ -1,0 +1,33 @@
+{
+    "head": "head",
+    "portraitScale": 1.9,
+    "portraitTranslation": [ -0.3, 0.3, 0 ],
+    "profileScale": 0.9,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "animations": {
+        "cry": "q.bedrock_stateful('mikueon', 'cry')"
+  },
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "animations": [
+          "look",
+          "bedrock(mikueon, ground_idle)"
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(mikueon, ground_walk)"]
+      }
+    }
+  }
+  

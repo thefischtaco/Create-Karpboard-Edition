@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:lediboltdef",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:lediboltdef",
+     "model": "cobblemon:ledibolt.geo",
+     "texture": "cobblemon:textures/pokemon/ledibolt/ledibolt.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ledibolt/ledibolt_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/ledibolt/ledibolt_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ledibolt/ledibolt_emissive_shiny.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

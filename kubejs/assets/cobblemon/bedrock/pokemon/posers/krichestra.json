@@ -1,0 +1,65 @@
+{
+	"portraitScale": 1.2,
+	"portraitTranslation": [0, 0.8, 0],
+	"profileScale": 0.5,
+	"profileTranslation": [0, 1, 0],
+	
+	"animations": {
+		"faint": "q.bedrock_primary('krichestra', 'faint', q.curve('one'))",
+		"physical": "q.bedrock_primary('krichestra', 'attack', q.curve('symmetrical_wide'))",
+		"special": "q.bedrock_primary('krichestra', 'attack', q.curve('symmetrical_wide'))",
+		"status": "q.bedrock_primary('krichestra', 'attack', 'look', q.curve('symmetrical_wide'))"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('krichestra', 'battle_idle')"
+			]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('krichestra', 'idle')"
+			]
+		},
+		"hover": {
+			"poseTypes": ["HOVER"],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('krichestra', 'ground_walk')"
+			]
+		},
+		"fly": {
+			"poseTypes": ["FLY"],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('krichestra', 'ground_walk')"
+			]
+		},
+		"float": {
+			"poseTypes": ["FLOAT"],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('krichestra', 'ground_walk')"
+			]
+		},
+		
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ 
+				"q.bedrock('krichestra', 'ground_walk')" 
+			]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('krichestra', 'sleep')"]
+		}
+	}
+}

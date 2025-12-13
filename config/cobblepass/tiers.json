@@ -1,0 +1,1035 @@
+{
+  "templates": {
+    "pokeballs_10": {
+      "type": "ITEM",
+      "data": {
+        "id": "cobblemon:poke_ball",
+        "Count": 10
+      }
+    },
+    "rare_candy": {
+      "type": "ITEM",
+      "data": {
+        "id": "cobblemon:rare_candy",
+        "Count": 1
+      }
+    },
+    "shiny_eevee": {
+      "type": "POKEMON",
+      "data": {
+        "species": "eevee",
+        "shiny": true
+      }
+    },
+    "greeting_command": {
+      "type": "COMMAND",
+      "data": {
+        "command": "say Hello %player%!",
+        "display_name": "Greeting",
+        "id": "minecraft:paper"
+      }
+    }
+  },
+  "tiers": [
+    {
+      "level": 1,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 2,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 3,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 4,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 5,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 6,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 7,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 8,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 9,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 10,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_rare",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 11,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 12,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 13,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 14,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 15,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 16,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 17,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 18,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 19,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 20,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "minecraft:heart_of_the_sea",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 21,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 22,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 23,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 24,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 25,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 26,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 27,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 28,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 29,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 30,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_rare",
+          "Count": 4
+        }
+      }
+    },
+    {
+      "level": 31,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 32,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 33,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 34,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 35,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 36,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 37,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 38,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 39,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 40,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:tower_key",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 41,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 42,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 43,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 44,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 45,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 46,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 47,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 48,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 49,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 50,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblenav:pokenav_item_wanderer",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 51,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 52,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 53,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 54,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 55,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 56,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 57,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 58,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 59,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 60,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_epic",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 61,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 62,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 63,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 64,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 65,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 66,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 67,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 68,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 69,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 70,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:epic_candy",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 71,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 72,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 73,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 74,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 75,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 76,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 77,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 78,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 79,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 80,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "minecraft:heavy_core",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 81,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 82,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 83,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 84,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 85,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 86,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 87,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 88,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 89,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 90,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:tower_key",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 91,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 92,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 93,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 94,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 95,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_uncommon",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 96,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 97,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 1
+        }
+      }
+    },
+    {
+      "level": 98,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 99,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:prize_box_common",
+          "Count": 2
+        }
+      }
+    },
+    {
+      "level": 100,
+      "freeReward": {
+        "type": "ITEM",
+        "data": {
+          "id": "cobblemoncreatified:move_index",
+          "Count": 1
+        }
+      }
+    }
+  ]
+}

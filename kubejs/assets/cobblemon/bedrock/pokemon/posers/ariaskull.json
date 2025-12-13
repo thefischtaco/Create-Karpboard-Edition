@@ -1,0 +1,58 @@
+{
+	"portraitScale": 1,
+	"portraitTranslation": [0, 1.2, 0],
+	"profileScale": 0.45,
+	"profileTranslation": [0, 1, 0],
+	
+	"animations": {
+		"faint": "q.bedrock_primary('ariaskull', 'death', q.curve('one'))",
+		"physical": "q.bedrock_primary('ariaskull', 'attack', q.curve('symmetrical_wide'))",
+		"special": "q.bedrock_primary('ariaskull', 'attack', q.curve('symmetrical_wide'))"
+	},
+	"poses": {
+		"battle-standing": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.bedrock('ariaskull', 'ground_battle')"
+			]
+		},
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"isBattle": false,
+			"animations": [
+				"q.bedrock('ariaskull', 'ground_idle')"
+			]
+		},
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": [ "WALK" ],
+			"animations": [ 
+				"q.bedrock('ariaskull', 'ground_walk')" 
+			]
+		},
+		"fly": {
+			"poseTypes": ["FLY"],
+			"animations": [
+				"q.bedrock('ariaskull', 'ground_walk')"
+			]
+		},
+		"hover": {
+			"poseTypes": ["HOVER"],
+			"animations": [
+				"q.bedrock('ariaskull', 'idle')"
+			]
+		},
+		"float": {
+			"poseTypes": ["FLOAT"],
+			"animations": [
+				"q.bedrock('ariaskull', 'ground_walk')"
+			]
+		},
+		"sleep": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('ariaskull', 'sleep')"]
+		}
+	}
+}

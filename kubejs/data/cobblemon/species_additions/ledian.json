@@ -1,0 +1,487 @@
+{
+    "target": "cobblemon:ledian",
+    "evolutions": [
+        {
+            "id": "ledianhardy_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=hardy"
+                }
+            ]
+        },
+        {
+            "id": "ledianlonely_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=lonely"
+                }
+            ]
+        },
+        {
+            "id": "ledianadamant_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=adamant"
+                }
+            ]
+        },
+        {
+            "id": "lediannaughty_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=naughty"
+                }
+            ]
+        },
+        {
+            "id": "ledianbrave_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=brave"
+                }
+            ]
+        },
+        {
+            "id": "ledianmodest_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=modest"
+                }
+            ]
+        },
+        {
+            "id": "ledianmild_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=mild"
+                }
+            ]
+        },
+        {
+            "id": "ledianbashful_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=bashful"
+                }
+            ]
+        },
+        {
+            "id": "ledianrash_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=rash"
+                }
+            ]
+        },
+        {
+            "id": "ledianquiet_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=quiet"
+                }
+            ]
+        },
+        {
+            "id": "lediantimid_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=timid"
+                }
+            ]
+        },
+        {
+            "id": "ledianjolly_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=jolly"
+                }
+            ]
+        },
+        {
+            "id": "ledianserious_ledibolt",
+            "variant": "trade",
+            "result": "ledibolt",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=serious"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+        {
+            "id": "ledianhasty_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=hasty"
+                }
+            ]
+        },
+        {
+            "id": "lediannaive_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=naive"
+                }
+            ]
+        },
+        {
+            "id": "ledianbold_lediboltdef",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=bold"
+                }
+            ]
+        },
+        {
+            "id": "lediandocile_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=docile"
+                }
+            ]
+        },
+        {
+            "id": "ledianimpish_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=impish"
+                }
+            ]
+        },
+        {
+            "id": "ledianlax_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=lax"
+                }
+            ]
+        },
+        {
+            "id": "ledianrelaxed_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=relaxed"
+                }
+            ]
+        },
+        {
+            "id": "lediancalm_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=calm"
+                }
+            ]
+        },
+        {
+            "id": "lediangentle_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=gentle"
+                }
+            ]
+        },
+        {
+            "id": "lediancareful_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=careful"
+                }
+            ]
+        },
+        {
+            "id": "ledianquirky_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=quirky"
+                }
+            ]
+        },
+        {
+            "id": "lediansassy_ledibolt",
+            "variant": "trade",
+            "result": "lediboltdef",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+                "thunderbolt"
+            ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:auspicious_armor"
+                },
+                {
+                    "variant": "properties",
+                    "target": "ledian nature=sassy"
+                }
+            ]
+        }
+    ]
+}

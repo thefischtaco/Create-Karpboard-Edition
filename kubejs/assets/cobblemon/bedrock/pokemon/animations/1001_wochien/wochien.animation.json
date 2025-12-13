@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wochien.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, 0, "1+math.cos(query.anim_time * 70) * 1"]
+				},
+				"torso": {
+					"rotation": ["0.3- (math.sin((q.anim_time - 0.1) * 100 / (7/12) ) * 1)", 0, "-0.3376+(math.cos((q.anim_time - 0.1) * 100 / (7/6) ) * 1)"]
+				},
+				"eyething_left": {
+					"rotation": ["-10+math.sin(query.anim_time*90*variable.idlespeed-50)*1.5", 0, 0]
+				},
+				"eyething_right": {
+					"rotation": ["-10+math.sin(query.anim_time*90*variable.idlespeed-50)*1.5", 0, 0]
+				}
+			}
+		},
+		"animation.wochien.ground_idle": {
+			"loop": true
+		}
+	}
+}

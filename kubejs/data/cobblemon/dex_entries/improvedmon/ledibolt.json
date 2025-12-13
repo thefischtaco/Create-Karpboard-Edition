@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ledibolt",
+  "speciesId": "cobblemon:ledibolt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
